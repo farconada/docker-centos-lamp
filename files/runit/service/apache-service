@@ -1,0 +1,2 @@
+#!/bin/bash
+exec /usr/sbin/httpd  -DFOREGROUND >> /var/log/apache2.log 2>&1
